@@ -1,9 +1,10 @@
-xpm.lua
-Ross Andrews ( ross.andrews@gmail.com )
+# xpm.lua
+
+### Ross Andrews ( ross.andrews@gmail.com )
 
 ----------------------------------------------------------------------
 
--- Purpose:
+### Purpose:
 
 This makes an easy way to manipulate image data in Lua. The Gimp can
 export XPM files, the format is fairly trivial to parse, so this makes
@@ -12,7 +13,7 @@ declarations to embed into other programs, or something.
 
 ----------------------------------------------------------------------
 
--- Usage:
+### Usage:
 
 - To create a new XPM object (which also parses the file): img = Xpm.new('filename.xpm')
 
