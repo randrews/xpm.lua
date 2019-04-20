@@ -15,9 +15,9 @@ declarations to embed into other programs, or something.
 
 ### Usage:
 
-- To create a new XPM object (which also parses the file): img = Xpm.new('filename.xpm')
+- To create a new XPM object (which also parses the file): `img = Xpm.new('filename.xpm')`
 
-- To read pixel data from the bitmap: img.pixels[row][column] or img:xy(xCoord, yCoord)
+- To read pixel data from the bitmap: `img.pixels[row][column]` or `img:xy(xCoord, yCoord)`
 
 The first method (array subscripts) puts the Y coordinate first and uses 1-based indices.
 The second method puts the X coordinate first and uses 0-based indices. Either is fine,
